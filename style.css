@@ -65,7 +65,7 @@ section {
     
 }
 
-section:not(#dashboard) {
+section:not(:last-child) {
     margin-right: 150px;
 }
 
